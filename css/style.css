@@ -1,0 +1,81 @@
+body{
+	font-family: sans-serif;
+	background-image: url("file:///C:/Users/User/Desktop/hahaha/IMG/bg.jpg");
+	
+}
+#container{
+	
+	width: 450px;
+	height:auto;
+	border: 1px solid black;
+	margin: auto;
+	background-color: white;
+    box-shadow: 4px 4px 44px;
+    border-radius:20px ;
+    padding: 10px;
+    background-color:dimgrey;
+    
+}
+#logo{
+	font-family: fantasy;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	color: black;
+	margin: 10px auto;
+	border-radius: 10px 10px 0px 0px:;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	min-height: 24vh;
+
+}
+#logo img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+#inputField{
+	width: 380px;
+	margin: 20px auto;	
+}
+.groupFLD{
+	font-family: monospace;
+	font-size: 15px;
+	margin: 10px auto;
+}
+.groupFLD input,
+.groupFLD select{
+	font-family: monospace;
+	font-size: 15px;
+	width: 100%;
+	height: 20px;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+.groupFLD input :focus,
+.groupFLD select:focus{
+	outline: none;
+}
+#container #buttonArea{
+	text-align: center;
+
+}
+#buttonArea{
+	width: 250px;
+	margin: 10px auto;
+}
+#buttonArea button{
+	background-color:lightgray;
+	border: none;
+	padding: 10.4px 14px;
+	color: black;
+	border-radius: 14px;
+	font-size: 15px;
+}
+#buttonArea button:hover{
+	background-color: whitesmoke;
+
+}
